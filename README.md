@@ -1,2 +1,2 @@
 # CodeForces
-CodeForces Solutions !
+Codeforces solutions.

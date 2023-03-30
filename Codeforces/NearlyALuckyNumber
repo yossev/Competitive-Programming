@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class M{
+	public static void main(String args[]) {
+    // Nearly a lucky number 
+	Scanner sc = new Scanner(System.in);
+	String number = sc.next();
+	int luckCount = 0;
+	for(int i = 0; i < number.length(); i++) {
+		if(number.charAt(i) == '7' || number.charAt(i) == '4') {
+			luckCount++;
+		}
+	}
+	if(luckCount == 7 || luckCount == 4) {
+		System.out.println("YES");
+	}
+	else {
+		System.out.println("NO");
+	}
+
+	}	
+}
